@@ -5,7 +5,7 @@ import App from './assets/App'
 import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
-    <BrowserRouter>
+    <BrowserRouter basename="/React_travel_planner">
         <App />
     </BrowserRouter>,
 )
